@@ -102,9 +102,7 @@
 	display: block;
 	text-align: left;
 }
-.dropdown-content a:hover{
-	background-color: #grey;
-}
+
 .dropdown:hover .dropdown-content {
 	display: block;
 }
