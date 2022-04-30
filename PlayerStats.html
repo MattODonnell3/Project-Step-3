@@ -27,71 +27,76 @@
 
 
 
-    <div class="list_container">
-        <h1>Player Statistics</h1>
-        <table>
-          <tr>
-            <th>Player</th>
-            <th>Team</th>
-            <th>Game</th>
-            <th>Points</th>
-            <th>Assists</th>
-            <th>Rebounds</th>
-          </tr>
-          <tr>
-            <td>Damian Lillard</td>
-            <td>Trail Blazers</td>
-            <td>#13241</td>
-            <td>14</td>
-            <td>3</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>Jimmy Butler</td>
-            <td>Heat</td>
-            <td>#32415</td>
-            <td>23</td>
-            <td>10</td>
-            <td>5</td>
-          </tr>
-        </table>
-      </div>
+  <div class="list_container">
+    <h1>Player Statistics</h1>
+    <table>
+      <tr>
+        <th>Player</th>
+        <th>Team</th>
+        <th>Game</th>
+        <th>Points</th>
+        <th>Assists</th>
+        <th>Rebounds</th>
+      </tr>
+      <tr>
+        <td>Damian Lillard</td>
+        <td>Trail Blazers</td>
+        <td>#13241</td>
+        <td>14</td>
+        <td>3</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Jimmy Butler</td>
+        <td>Heat</td>
+        <td>#32415</td>
+        <td>23</td>
+        <td>10</td>
+        <td>5</td>
+      </tr>
+    </table>
+  </div>
 
 
+  <div class="crud">
+    <h2>Edit Data</h2>
+      <br>
+      <p>
+        Player ID: <input type="text" id="player_name" placeholder="Input player name here">
+      </p>
+      <br>
+      <p>
+        Game ID: <input type="text" id="game_id" placeholder="Input game id here">
+      </p>
+      <br>
+      <p>
+        Team ID: <input type="text" id="team_name" placeholder="Input team name here">
+      </p>
+      <br>
+      <p>
+        Points: <input type="text" id="points" placeholder="Input points here">
+      </p>
+      <br>
+      <p>
+        Assists: <input type="text" id="assists" placeholder="Input team assists here">
+      </p>
+      <br>
+      <p>
+        Rebounds: <input type="text" id="rebounds" placeholder="Input team rebounds here">
+      </p>
+      </p>
+      <p><span class="notes">Player ID and Game ID is required to update or delete statistic.</span></p>
+      <br>
+      <br>
 
-      <br>
-      <p>
-        &nbsp Player Name: <input type="text" id="player_name" placeholder="Input player name here">
-      </p>
-      <br>
-      <p>
-        &nbsp  Team Name: <input type="text" id="team_name" placeholder="Input team name here">
-      </p>
-      <br>
-      <p>
-        &nbsp  Game: <input type="text" id="game_id" placeholder="Input game id here">
-      </p>
-      <br>
-      <p>
-        &nbsp  Points: <input type="text" id="points" placeholder="Input points here">
-      </p>
-      <br>
-      <p>
-        &nbsp  Assists: <input type="text" id="assists" placeholder="Input team assists here">
-      </p>
-      <br>
-      <p>
-        &nbsp  Rebounds: <input type="text" id="rebounds" placeholder="Input team rebounds here">
-      </p>
-      <br>
-      &nbsp
       <input type="submit" value="Add Statistics">
       <input type="submit" value="Delete Statistics">
       <input type="submit" value="Search Statistics">
       <input type="submit" value="Update Statistics">
 
+  </div>
 
-	
+
 	<div class="footer">
 		<ul class="footer_navigation">
 		<a href = "Divisions.html"><li>Divisions</li></a>
@@ -101,6 +106,6 @@
 		<a href = "PlayerStats.html"><li>Player Statistics</li></a>
 		</ul>
 	</div>
-	
+
   </body>
 </html>

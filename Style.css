@@ -125,7 +125,7 @@
 }
 h2{
 	text-align: center;
-	font-family: "Lucida Calligraphy";
+	/*font-family: "Lucida Calligraphy";*/
 }
 .location{
 	float: right;
@@ -193,6 +193,11 @@ h2{
 	padding: 10px 0px;
 }
 
+.notes {
+	font-style: italic;
+	font-size: 10pt;
+}
+
 table {
 	border: 1px solid black;
 	border-collapse: collapse;
@@ -212,6 +217,18 @@ tr:nth-child(odd) {
 
 tr:hover{
 	background-color: #aaaaaa;
+}
+
+.crud {
+	border: 1px solid #111111;
+	display: inline-block;
+	padding: 10px 10px 10px 5px;
+	margin: 10px 30px;
+}
+
+.crud p, .crud input {
+	margin-left: 5px;
+	padding: 2px;
 }
 
 p.top{
